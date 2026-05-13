@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Face KYC</string>
+    <string name="app_name_full">Face Liveness KYC</string>
+
+    <!-- Permissions -->
+    <string name="camera_permission_title">Camera Access Required</string>
+    <string name="camera_permission_message">Face KYC needs camera access to verify your identity.</string>
+    <string name="permission_denied_message">Camera permission denied. Please enable it in Settings.</string>
+
+    <!-- Verification steps -->
+    <string name="step_face_detected">Position your face in the circle</string>
+    <string name="step_face_aligned">Hold still…</string>
+    <string name="step_blink">Blink slowly</string>
+    <string name="step_turn_left">Turn your head left</string>
+    <string name="step_turn_right">Turn your head right</string>
+    <string name="step_look_straight">Look straight ahead</string>
+    <string name="step_complete">Verification complete!</string>
+
+    <!-- Warnings -->
+    <string name="warning_low_light">Move to a brighter area</string>
+    <string name="warning_multiple_faces">Only one face allowed</string>
+    <string name="warning_too_close">Move further away</string>
+    <string name="warning_too_far">Move closer</string>
+    <string name="warning_spoof">Spoof detected. Please use your real face.</string>
+
+    <!-- Buttons -->
+    <string name="btn_begin">Begin Verification</string>
+    <string name="btn_try_again">Try Again</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_open_settings">Open Settings</string>
+    <string name="btn_proceed">Proceed to Dashboard</string>
+</resources>

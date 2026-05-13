@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Adaptive icon background — pure black matches the app theme -->
+    <color name="ic_launcher_background">#FF000000</color>
+
+    <!-- Primary accent -->
+    <color name="primary">#FF4FC3F7</color>
+    <color name="primary_dark">#FF0288D1</color>
+    <color name="accent">#FF4FC3F7</color>
+
+    <!-- App background -->
+    <color name="background">#FF000000</color>
+    <color name="surface">#FF0A0A0F</color>
+    <color name="surface_variant">#FF12121A</color>
+
+    <!-- Status / feedback -->
+    <color name="success">#FF4CAF50</color>
+    <color name="warning">#FFFF9800</color>
+    <color name="error">#FFEF5350</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#FFB0B0C0</color>
+    <color name="text_tertiary">#FF6B6B80</color>
+</resources>

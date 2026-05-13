@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- ios/Runner/Info.plist -->
+<!-- Key iOS configuration for Face Liveness KYC app -->
+<plist version="1.0">
+<dict>
+    <!-- ── Bundle identity ─────────────────────────────────────────────── -->
+    <key>CFBundleDevelopmentRegion</key>
+    <string>$(DEVELOPMENT_LANGUAGE)</string>
+    <key>CFBundleDisplayName</key>
+    <string>Face KYC</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>face_liveness_kyc</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>$(FLUTTER_BUILD_NAME)</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleVersion</key>
+    <string>$(FLUTTER_BUILD_NUMBER)</string>
+
+    <!-- ── Privacy descriptions (REQUIRED for App Store) ────────────────── -->
+    <!-- Camera — required for face liveness scanning -->
+    <key>NSCameraUsageDescription</key>
+    <string>Face KYC needs your camera to perform real-time face liveness verification. Your face data is processed on-device and never stored or transmitted.</string>
+
+    <!-- Photo Library — only needed if you allow gallery upload -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Face KYC may save your verification photo to your device.</string>
+
+    <!-- Face ID — required to use LocalAuthentication APIs if added later -->
+    <key>NSFaceIDUsageDescription</key>
+    <string>Face KYC uses Face ID for secure identity verification.</string>
+
+    <!-- ── Orientation — portrait only ──────────────────────────────────── -->
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationPortraitUpsideDown</string>
+    </array>
+
+    <!-- ── UI appearance ─────────────────────────────────────────────────── -->
+    <key>UILaunchStoryboardName</key>
+    <string>LaunchScreen</string>
+    <key>UIMainStoryboardFile</key>
+    <string>Main</string>
+
+    <!-- Status bar style — light content on dark background -->
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleLightContent</string>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
+
+    <!-- Require full-screen on iPad -->
+    <key>UIRequiresFullScreen</key>
+    <true/>
+
+    <!-- ── ML / Metal GPU ────────────────────────────────────────────────── -->
+    <!-- Allow TFLite to use Metal GPU delegate -->
+    <key>NSSupportsLiveActivities</key>
+    <false/>
+
+    <!-- Flutter-specific -->
+    <key>CADisableMinimumFrameDurationOnPhone</key>
+    <true/>
+    <key>UIApplicationSupportsIndirectInputEvents</key>
+    <true/>
+</dict>
+</plist>

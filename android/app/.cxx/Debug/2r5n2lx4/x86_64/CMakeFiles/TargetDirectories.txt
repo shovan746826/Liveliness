@@ -1,0 +1,2 @@
+/Users/ashiqur/StudioProjects/liveliness/android/app/.cxx/Debug/2r5n2lx4/x86_64/CMakeFiles/edit_cache.dir
+/Users/ashiqur/StudioProjects/liveliness/android/app/.cxx/Debug/2r5n2lx4/x86_64/CMakeFiles/rebuild_cache.dir
